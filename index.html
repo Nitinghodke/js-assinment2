@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        const Array = [3, 4, 9, 5, 8, 4, 2, 7, 5, 8];
+
+const unique = [...new Set(Array)];
+
+function findFirstUnique(arr){
+
+    document.write(`The first unique element in the array ${arr[0]}<br><br>` );
+
+}
+findFirstUnique(unique);
+  
+  
+  
+  
+  
+                
+      //---- Quistion 2 -----//       
+ const Array1 = [1, 2, 3, 4, 5]; 
+ function rightRotate(arr,n){           
+     return [...arr.slice(n - 1, arr.length), ...arr.slice(0, n - 1)]        }                
+    document.write(rightRotate(Array1,3));       
+    // document.getElementById('output2').innerText = `The first unique element in the array ${rightRotate(Array1,3)}`;;
+
+
+
+    </script>
+</body>
+</html>
